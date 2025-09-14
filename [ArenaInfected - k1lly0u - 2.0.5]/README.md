@@ -1,0 +1,1 @@
+Rust Server Plugin that adds an Infected event mode for Arena. Original Source: k1lly0u
