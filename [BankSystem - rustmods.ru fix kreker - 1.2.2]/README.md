@@ -1,0 +1,1 @@
+Rust Server Plugin that provides a comprehensive in-game bank system for players, allowing deposits, withdrawals, transfers, and ATM management. Original Source: rustmods.ru fix kreker
