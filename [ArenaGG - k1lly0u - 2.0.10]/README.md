@@ -1,0 +1,1 @@
+Rust Server Plugin that provides a GunGame event mode for EventManager. Original Source: k1lly0u
