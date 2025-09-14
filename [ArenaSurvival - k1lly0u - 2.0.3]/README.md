@@ -1,0 +1,1 @@
+Rust Server Plugin that is a last man standing event mode for Arena. Original Source: k1lly0u
