@@ -1,0 +1,1 @@
+Rust Server Plugin that adds a feature-rich in-game shop allowing players to buy and sell items, transfer currency, and utilize NPC or Vending Machine storefronts with custom limits and cooldowns. Original Source: Mevent
