@@ -1,0 +1,1 @@
+Rust Server Plugin that allows players to skip the wounded state before dying. Original Source: Iv Misticos
