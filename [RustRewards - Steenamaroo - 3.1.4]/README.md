@@ -1,0 +1,1 @@
+Rust Server Plugin that Rewards players for activities using Economic, ServerRewards or Scrap. Original Source: Steenamaroo
