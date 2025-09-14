@@ -1,0 +1,1 @@
+Rust Server Plugin that provides the 'One In The Chamber' event mode for Arena. Original Source: k1lly0u
