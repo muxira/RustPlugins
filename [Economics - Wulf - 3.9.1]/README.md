@@ -1,0 +1,1 @@
+Rust Server Plugin that provides a basic economics system and economy API. Original Source: Wulf
