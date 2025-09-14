@@ -1,0 +1,1 @@
+Rust Server Plugin that enables players, teams, or clans to compete for control over capturable map monuments, earning periodic rewards managed through a UI. Original Source: https://discord.gg/dNGbxafuJn
