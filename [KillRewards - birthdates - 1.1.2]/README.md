@@ -1,0 +1,1 @@
+Rust Server Plugin that gives players rewards for reaching specific kill counts during a single life or an entire wipe. Original Source: birthdates
