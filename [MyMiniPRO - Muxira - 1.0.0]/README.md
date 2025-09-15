@@ -1,0 +1,1 @@
+Rust Server Plugin that enables players to spawn a customized minicopter, featuring a full fuel tank, a mounted auto-turret, and a storage container with a random weapon.
