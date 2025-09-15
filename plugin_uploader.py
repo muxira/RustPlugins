@@ -15,7 +15,7 @@ from google import genai
 GITHUB_TOKEN = "YOUR_GITHUB_TOKEN"
 GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
 MODEL = "gemini-2.5-flash"
-REPO_NAME = "RustPlugins2"
+REPO_NAME = "RustPlugins"
 TOPIC = "rustplugin"
 PLUGINS_JSON = "plugins.json"
 
@@ -94,10 +94,16 @@ def main():
     try:
         repo = user.get_repo(REPO_NAME)
         print(f"Repository {REPO_NAME} exists")
+        # Обновляем описание существующего репозитория
+        repo.edit(description="This repo meant to be indexed to [Plugins Forum Github](https://github.com/publicrust/plugins-forum)")
     except GithubException:
-        repo = user.create_repo(REPO_NAME, private=False)
+        repo = user.create_repo(
+            REPO_NAME,
+            private=False,
+            description="This repo meant to be indexed to [Plugins Forum Github](https://github.com/publicrust/plugins-forum)"
+        )
         repo.replace_topics([TOPIC])
-        print(f"✅ Created repository {REPO_NAME} with topic '{TOPIC}'")
+        print(f"✅ Created repository {REPO_NAME} with topic '{TOPIC}' and description set")
 
         # Download README.md and plugin_uploader.py from source repo
         for filename in ["README.md", "plugin_uploader.py"]:
