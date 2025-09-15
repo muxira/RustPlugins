@@ -1,0 +1,1 @@
+Rust Server Plugin that greets players with a personalized welcome message via the `/hello` chat command.
