@@ -1,0 +1,1 @@
+Rust Server Plugin that transforms drones into explosive kamikaze devices by arming them with F1 grenades, capable of remote or collision-based detonation.
